@@ -1,1 +1,5 @@
-utils.model.py
+utils文件夹中是NERF代码使用到的各种函数
+
+nerf_process_entire.py是指完整的nerf函数，只需要执行这一个py代码就可以得到一个lego多视角图形训练以及测试的结果
+
+data_set包含两种数据形式：第一种是本地拍摄的360视频图像，第二种是远程下载的npz数据。其中第一种需要经过一系列的处理才可以生成符合条件的输出，处理的细节在utils.data.py文件中。
